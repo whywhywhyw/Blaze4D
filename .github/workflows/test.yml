@@ -33,7 +33,7 @@ jobs:
           java-version: '18'
 
       - name: Compile resources
-        run: ./gradlew
+        run: ./gradlew :core:assets:build
         working-directory: resources
 
       - name: Build
